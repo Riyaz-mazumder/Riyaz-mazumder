@@ -3,7 +3,7 @@
 
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
-- 💬 Ask me about **Java, Spring Boot, Angular, Css, Sql**
+- 💬 Ask me about **Java, Spring Boot, Angular, CSS, SQL**
 
 - 📫 How to reach me **riajmazumder711@gmail.com**
 
