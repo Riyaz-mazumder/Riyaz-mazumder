@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Riaj Uddin Mazumder</h1>
-<h3 align="center">A passionate Software Developer (Java) from Bangladesh</h3>
+<h3 align="center">A passionate Software Developer from Bangladesh</h3>
 
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
