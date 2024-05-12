@@ -3,7 +3,7 @@
 
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
-- 💬 Ask me about **Java, Spring Framework, Spring Boot, Spring MVC, Angular, CSS3, HTML5, SQL, MS SQL Server, MongoDB, ORACLE DB, MYSQL**
+- 💬 Ask me about **Java, Spring Framework, Spring Boot, Spring MVC, Angular, CSS3, HTML5, SQL, MS SQL Server, MongoDB, ORACLE DB and MYSQL.**
 
 - 📫 How to reach me **riajmazumder711@gmail.com**
 
