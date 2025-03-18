@@ -6,7 +6,7 @@
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
 - 💬 Ask me about **Java, Spring Framework, Spring Boot, Spring MVC, Angular, CSS3, HTML5, SQL, MS SQL Server, MongoDB, ORACLE DB and MYSQL.**
-- 📄 Download my CV [https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf](https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf)
+- 📄 To know about my experince [https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf](https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf)
 - 📫 How to reach me **riajmazumder711@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
