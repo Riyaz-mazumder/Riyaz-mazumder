@@ -1,15 +1,13 @@
 <h1 align="center">Hi 👋, I'm Riaj Uddin Mazumder</h1>
 <h3 align="center">A passionate Software Developer from Bangladesh</h3>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
 - 💬 Ask me about **Java, Spring Framework, Spring Boot, Spring MVC, Angular, CSS3, HTML5, SQL, MS SQL Server, MongoDB, ORACLE DB and MYSQL.**
 
 - 📫 How to reach me **riajmazumder711@gmail.com**
-- 
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
