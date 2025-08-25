@@ -2,7 +2,7 @@ name: Generate snake animation
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"   # every 12 hours (you had */2 which is every 2 hours)
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
   push:
@@ -18,7 +18,7 @@ jobs:
         uses: Platane/snk/svg-only@v2
         with:
           github_user_name: Riyaz-mazumder
-          outputs: dist/snake.svg
+          output: dist/snake.svg
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
