@@ -22,5 +22,4 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Riyaz-mazumder&theme=vue&hide_border=true)
 
-<img src="https://raw.githubusercontent.com/Riyaz-mazumder/Riyaz-mazumder/output/snake.svg" alt="Snake animation" />
-
+<img src="https://raw.githubusercontent.com/shihab-uddin-shakil/shihab-uddin-shakil/output/snake.svg" alt="Snake animation" />
