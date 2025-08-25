@@ -1,25 +1,43 @@
-name: Generate Snake Animation
+name: Generate snake animation
 
+# allow manual run + scheduled runs
 on:
-  schedule:
-    - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+
+# ensure the GITHUB_TOKEN can write files
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate Snake (Platane snk v3)
         uses: Platane/snk@v3
         with:
           github_user_name: Riyaz-mazumder
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/snake.svg
 
-      - name: Push Snake to Output Branch
+      - name: Show generated files (debug)
+        run: |
+          echo "=== print working dir ==="
+          pwd
+          echo "=== ls -la (repo root) ==="
+          ls -la || true
+          echo "=== ls -la dist ==="
+          ls -la dist || true
+          echo "=== head first 40 lines of dist/snake.svg (if exists) ==="
+          if [ -f dist/snake.svg ]; then head -n 40 dist/snake.svg; else echo "dist/snake.svg not found"; fi
+
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
