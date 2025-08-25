@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Riaj Uddin Mazumder</h1>
 <h3 align="center">A passionate Software Developer from Bangladesh</h3>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+##[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Riyaz-mazumder)](https://github.com/ryo-ma/github-profile-trophy)
 
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
@@ -22,4 +23,5 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Riyaz-mazumder&theme=vue&hide_border=true)
 
-<img src="https://raw.githubusercontent.com/Riyaz-mazumder/Riyaz-mazumder/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Riyaz-mazumder/Riyaz-mazumder/output/dist/snake.svg" alt="Snake animation" />
+
