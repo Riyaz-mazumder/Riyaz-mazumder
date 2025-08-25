@@ -1,19 +1,16 @@
 name: Generate snake animation
 
-# allow manual run + scheduled runs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
+    - cron: "0 */12 * * *"
 
-# ensure the GITHUB_TOKEN can write files
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -22,25 +19,17 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Riyaz-mazumder
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/snake.svg
 
-      - name: Show generated files (debug)
+      - name: Commit and push snake.svg
         run: |
-          echo "=== print working dir ==="
-          pwd
-          echo "=== ls -la (repo root) ==="
-          ls -la || true
-          echo "=== ls -la dist ==="
-          ls -la dist || true
-          echo "=== head first 40 lines of dist/snake.svg (if exists) ==="
-          if [ -f dist/snake.svg ]; then head -n 40 dist/snake.svg; else echo "dist/snake.svg not found"; fi
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin
+          git checkout -B output
+          mkdir -p dist
+          cp dist/snake.svg snake.svg
+          git add snake.svg
+          git commit -m "update snake.svg" || echo "No changes to commit"
+          git push origin output --force
