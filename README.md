@@ -4,12 +4,13 @@
 - 👨‍💻 All of my projects are available at [https://riajmm.web.app](https://riajmm.web.app)
 
 - 💬 Ask me about **Java, Spring Framework, Spring Boot, Spring MVC, Angular, CSS3, HTML5, SQL, MS SQL Server, MongoDB, ORACLE DB and MYSQL.**
-- 📄 To know about my experince visit [https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf](https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf)
+- 📄 To know about my experience, visit [https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf](https://github.com/Riyaz-mazumder/Riyaz-mazumder/blob/main/cv/riaj_uddin_cv.pdf)
 - 📫 How to reach me **riajmazumder711@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/riaj-uddin-a92875204" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/riaj-uddin-a92875204" height="30" width="40" /></a>
+<br/>
 <a href="https://www.facebook.com/riaj.mazumder.7" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/riaj.mazumder.7" height="30" width="40" /></a>
 </p>
 
